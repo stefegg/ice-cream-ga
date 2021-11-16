@@ -11,10 +11,14 @@ export const Wrapper = styled.div`
   flex-direction: column;
   justify-content: space-evenly;
   color: #fffdd0;
+  font-size: 14px;
 `;
 
 export const ReviewBody = styled.div`
   margin-top: 4px;
+  max-height: 100%;
+  overflow: scroll;
+  padding-bottom: 8px;
 `;
 
 export const ReviewAuthor = styled.div`

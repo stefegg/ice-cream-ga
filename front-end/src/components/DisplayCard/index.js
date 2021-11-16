@@ -31,7 +31,7 @@ const DisplayCard = ({ business }) => {
             <SubHeader key={idx}>{item}</SubHeader>
           ))}
         <SubHeader>
-          Yelp Weighted Rating: <RatingStars src={displayStars(rating)} />
+          Yelp Rating: <RatingStars src={displayStars(rating)} />
         </SubHeader>
       </Details>
       <Reviews>
