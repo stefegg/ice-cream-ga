@@ -7,7 +7,7 @@ export const Wrapper = styled.div`
   display: flex;
   flex-direction: row;
   padding: 40px;
-  margin-bottom: 24px;
+  margin-bottom: 36px;
   height: 40vh;
 `;
 
